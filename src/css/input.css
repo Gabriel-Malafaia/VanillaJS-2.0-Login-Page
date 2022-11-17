@@ -1,0 +1,25 @@
+.input-default{
+    width: var(--inputWidthDefault);
+    border-radius: var(--radius2);
+    padding: 0 16px;
+    height: var(--inputHeigthDefault);
+    border: 2px solid transparent;
+    border: 1px solid var(--colorGrey2);
+}
+
+.input-error:focus {
+    border: 2px solid rgb(255, 101, 101);
+}
+
+.input-valid:focus{
+    border: 2px solid rgb(137, 255, 137);
+}
+
+.input-default.medium{
+    height: var(--inputHeigthMedium);
+}
+
+.input-default.little{
+    height: var(--inputHeigthLittle);
+}
+

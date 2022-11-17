@@ -1,0 +1,38 @@
+.font-title-1 {
+    font-size: var(--fontTitle1);
+    font-weight: var(--fontWeigth1);
+}
+
+.font-title-2 {
+    font-size: var(--fontTitle2);
+    font-weight: var(--fontWeigth1);
+}
+
+.font-title-3 {
+    font-size: var(--fontTitle3);
+    font-weight: var(--fontWeigth1);
+}
+
+.font-title-4 {
+    font-size: var(--fontTitle4);
+    font-weight: var(--fontWeigth2);
+}
+
+.font-text-1 {
+    font-size: var(--fontText1);
+    font-weight: var(--fontWeigth3);
+}
+
+.font-text-2 {
+    font-size: var(--fontText2);
+    font-weight: var(--fontWeigth3);
+}
+
+.font-text-3 {
+    font-size: var(--fontText3);
+    font-weight: var(--fontWeigth3);
+}
+
+.login__right p:hover{
+    text-decoration: underline;
+}

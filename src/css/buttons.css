@@ -1,0 +1,24 @@
+.button-default{
+    width: var(--buttonWidthDefault);
+    border-radius: var(--radius2);
+    padding: 0 16px;
+    height: var(--buttonHeigthDefault);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hoverPurple:hover{
+    background: #8E2DE2; 
+}
+
+.hoverWhite:hover{
+    background: #eaeaea;
+}
+
+.button-default.medium{
+    height: var(--buttonHeigthMedium);
+}
+
+.button-default.little{
+    height: var(--buttonHeigthLittle);
+}

@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+    .container__login {
+        padding: 0;
+        max-width: 480px;
+        width: 90%;
+        max-height: 730px;
+        flex-direction: column;
+        box-shadow: 1px 1px 15px grey;
+    }
+
+    .login__left div {
+        height: 90%;
+    }
+
+    .login__left,
+    .login__right {
+        width: 100%;
+        height: 50%;
+        border-radius: none;
+        box-shadow: none;
+        background-color: #fff;
+    }
+
+    .login__right {
+        border-radius: 0;
+        border-top: 1px solid grey;
+        padding: 0;
+    }
+
+    .login__right div {
+        box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.448);
+        border-radius: var(--radius1);
+        max-width: 320px;
+        min-width: 320px;
+        height: 320px;
+        padding: 15px 0;
+    }
+
+    .login__right form,
+    .login__right h1 {
+        font-size: 26px;
+        color: var(--colorPrimary);
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login__right form label {
+        align-self: flex-start;
+        color: var(--colorGrey1);
+    }
+
+    .login__right p {
+        color: var(--colorGrey1);
+    }
+
+    .login__right button,
+    .hoverWhite:hover,
+    .hoverPurple:hover {
+        color: #fff;
+        background-color: var(--colorPrimary);
+    }
+}
+
+@media (max-width: 375px) {
+    .login__right div {
+        box-shadow: none;
+    }
+
+    .modal__cadastro--container,
+    .modal__recuperacao--container{
+        max-width: 300px;
+    }
+}
